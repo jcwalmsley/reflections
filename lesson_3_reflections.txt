@@ -33,9 +33,19 @@ How can you use the commands git log and git diff to view the history of files?
 How might using version control make you more confident to make changes that
 could break something?
 
-    With version control you have confidence that you can always go back to the last good code version that you saved in case you make a mistake. 
+    With version control you have confidence that you can always go back to the last good code version that you saved in case you make a mistake.
 
 7 ---------
 Now that you have your workspace set up, what do you want to try using Git for?
 
     I want to try using Git to update a lot of previous course coding projects so that they are better represented in my GitHub repositories.
+
+8 ---------
+How can you use the staging area to make sure you have one commit per logical change?
+
+    The staging area lists all the files that have been added for the next commit. By reviewing these files you would be able to determine if they are all part of one logical change or not.
+
+9 ---------
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area is an intermediate area that allows you to review new or modified files prior to making a commit. If files are present that shouldn't be committed yet they can be removed with the git reset file-name command prior to the next commit. 
