@@ -48,4 +48,17 @@ How can you use the staging area to make sure you have one commit per logical ch
 9 ---------
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-    The staging area is an intermediate area that allows you to review new or modified files prior to making a commit. If files are present that shouldn't be committed yet they can be removed with the git reset file-name command prior to the next commit. 
+    The staging area is an intermediate area that allows you to review new or modified files prior to making a commit. If files are present that shouldn't be committed yet they can be removed with the git reset file-name command prior to the next commit.
+
+10 ---------
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    Branches enable the programmer to track and view multiple versions of the same project. Additionally, it facilitates experimentation with out breaking working code that has already been written.
+
+11 ---------
+How do the diagrams help you visualize the branch structure?
+
+    Diagrams help you visualize which commits took place on which Branches
+
+
+12 ---------
