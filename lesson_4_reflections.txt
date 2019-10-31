@@ -1,0 +1,115 @@
+# Lesson 1 #################
+1 -----------
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The results are narrowed down to only the lines in the two different files that have either been added, deleted or modified in some way
+
+2 ---------
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having entire file history access can highlight repetitive mistakes that I make while coding.
+
+3 ----------
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Automatic commits prevent you from correcting you own mistakes when you see them whereas manual commits allow you to not save a mistake before you correct it.
+
+4 ---------
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think this allows for faster project development during the coding process where as Google Docs and other programs that save automatically were not specifically intended for production coding environments.
+
+5 ---------
+How can you use the commands git log and git diff to view the history of files?
+
+    git diff highlights differences between two or three files, only whereas git log displays recent changes for all files.
+
+6 ---------
+How might using version control make you more confident to make changes that
+could break something?
+
+    With version control you have confidence that you can always go back to the last good code version that you saved in case you make a mistake.
+
+
+
+7 ---------
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git to update a lot of previous course coding projects so that they are better represented in my GitHub repositories.
+
+
+
+# Lesson 2 ####################
+Problem set 1
+Quiz 3 through 14
+
+
+
+# Lesson 3 ####################
+8 ---------
+How can you use the staging area to make sure you have one commit per logical change?
+
+    The staging area lists all the files that have been added for the next commit. By reviewing these files you would be able to determine if they are all part of one logical change or not.
+
+9 ---------
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area is an intermediate area that allows you to review new or modified files prior to making a commit. If files are present that shouldn't be committed yet they can be removed with the git reset file-name command prior to the next commit.
+
+10 ---------
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    Branches enable the programmer to track and view multiple versions of the same project. Additionally, it facilitates experimentation with out breaking working code that has already been written.
+
+11 ---------
+How do the diagrams help you visualize the branch structure?
+
+    Diagrams help you visualize which commits took place on which Branches and in which order in relation to time.
+
+
+12 ---------
+What is the result of merging two branches together?
+
+    Git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch. This is a method for incorporating new features, bug fixes or other changes into the production or master branch when merging into that branch.
+
+13 ---------
+Why do we represent it in the diagram the way we do?
+
+    The diagram shows that the separate branches called in the git merge statement are now folded into one single branch.
+
+14 ---------
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Automatic merging by git speeds up the coding process however, when a conflict arrises git also automatically requires human input to resolve the conflicts since it can't know what to do in those cases.
+
+
+
+# Lesson 4 #############
+15 ---------
+When would you want to use a remote repository rather than keeping all your work local?
+
+    I would do this if collaborating on a project or product new feature or bug fix with others involving a lot of potential changes before arriving at the final version or solution.
+
+16 ---------
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    To reduce the total number of commits and to ensure that the commit occurs at a logical breakpoint in the code rather than based on some arbitrary time period set by some application that is aware of what is happening inside the code blocks.
+
+17 ----------
+Describe the differences between forks, clones, and branches.
+
+    A fork is a process that makes an exact copy of another persons repo at the last commit in their repo and puts the copy into the current GitHub user's list of repositories.
+    A clone is a way to copy a repo from a remote over to the user's local working directory.
+    A branch is a copy of a working directory used for non production changes (ie., experimentation of new features, or bug fixes or changes to documentation, etc.,)
+
+When would you use one instead of another?
+
+    Use a fork to clone someone else's repo on GitHub to your own list of repositories on GitHub
+    Use a clone to make a local copy of a repo from GitHub or another location not on your own local drive.
+    Use a branch to make a local copy of a master branch for testing or writing non production ready changes to code or text
