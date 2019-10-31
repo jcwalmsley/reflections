@@ -64,9 +64,14 @@ How do the diagrams help you visualize the branch structure?
 12 ---------
 What is the result of merging two branches together?
 
-    Git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch.
+    Git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch. This is a method for incorporating new features, bug fixes or other changes into the production or master branch when merging into that branch.
 
 13 ---------
 Why do we represent it in the diagram the way we do?
 
-    
+    The diagram shows that the separate branches called in the git merge statement are now folded into one single branch.
+
+14 ---------
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Automatic merging by git speeds up the coding process however, when a conflict arrises git also automatically requires human input to resolve the conflicts since it can't know what to do in those cases.
