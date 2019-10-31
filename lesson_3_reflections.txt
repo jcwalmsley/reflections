@@ -1,3 +1,4 @@
+# Lesson 1 #################
 1 -----------
 
 How did viewing a diff between two versions of a file help you see the bug that
@@ -34,7 +35,7 @@ How might using version control make you more confident to make changes that
 could break something?
 
     With version control you have confidence that you can always go back to the last good code version that you saved in case you make a mistake.
-    
+
 
 
 7 ---------
@@ -42,6 +43,15 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
     I want to try using Git to update a lot of previous course coding projects so that they are better represented in my GitHub repositories.
 
+
+
+# Lesson 2 ####################
+Problem set 1
+Quizes 3 through 14
+
+
+
+# Lesson 3 ####################
 8 ---------
 How can you use the staging area to make sure you have one commit per logical change?
 
@@ -77,8 +87,16 @@ Why do we represent it in the diagram the way we do?
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
     Automatic merging by git speeds up the coding process however, when a conflict arrises git also automatically requires human input to resolve the conflicts since it can't know what to do in those cases.
-    
-15 --------- 
+
+
+
+# Lesson 4 #############
+15 ---------
 When would you want to use a remote repository rather than keeping all your work local?
 
-    I would do this if collborating on a project or product new feature or bug fix with others involving a lot of potentiatl changes before arriving at the final version or solution.
+    I would do this if collaborating on a project or product new feature or bug fix with others involving a lot of potential changes before arriving at the final version or solution.
+
+16 ---------
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    To reduce the total number of commits and to ensure that the commit occurs at a logical breakpoint in the code rather than based on some arbitrary time period set by some application that is aware of what is happening inside the code blocks.
