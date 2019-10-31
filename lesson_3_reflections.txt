@@ -34,6 +34,8 @@ How might using version control make you more confident to make changes that
 could break something?
 
     With version control you have confidence that you can always go back to the last good code version that you saved in case you make a mistake.
+    
+
 
 7 ---------
 Now that you have your workspace set up, what do you want to try using Git for?
@@ -75,3 +77,8 @@ Why do we represent it in the diagram the way we do?
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
     Automatic merging by git speeds up the coding process however, when a conflict arrises git also automatically requires human input to resolve the conflicts since it can't know what to do in those cases.
+    
+15 --------- 
+When would you want to use a remote repository rather than keeping all your work local?
+
+    I would do this if collborating on a project or product new feature or bug fix with others involving a lot of potentiatl changes before arriving at the final version or solution.
