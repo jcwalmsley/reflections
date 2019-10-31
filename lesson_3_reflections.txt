@@ -62,6 +62,11 @@ How do the diagrams help you visualize the branch structure?
 
 
 12 ---------
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+What is the result of merging two branches together?
 
-    Git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch. 
+    Git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch.
+
+13 ---------
+Why do we represent it in the diagram the way we do?
+
+    
