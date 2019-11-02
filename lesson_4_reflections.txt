@@ -117,4 +117,13 @@ b) When would you use one instead of another?
 18 ------------
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Potentially helps avoid creating duplicate modifications and lets you see what recent changes had been done on the remote so you can focus on other changes. 
+    Potentially helps avoid creating duplicate modifications and lets you see what recent changes had been done on the remote so you can focus on other changes.
+
+19 ------------
+a) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    Probably through file sharing method like google drive, Microsoft OneDrive, Dropbox, or something similar.
+
+b) What would be easier, and what would be harder?
+
+    It seems to me that Git with GitHub would be much easier provided both parties understand how to use this form of version control. 
